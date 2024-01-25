@@ -2,11 +2,14 @@
 
 const Home = () => {
   return (
-    <div className="text-xl font-bold text-center bg-slate-300 p-2 
-    h-96 
+    <div className=" font-bold text-center bg-black p-2 
+    h-96 lg:h-72
     ">
+        
+        <h1 className="text-2xl m-5 text-slate-300  lg:tracking-wider"> Welcom to VR Universal Computer</h1>
+
    
-        <h1 className="text-2xl m-3 text-red-400 "> Welcom to VR Universal Computer</h1>
+        
     </div>
   )
 }

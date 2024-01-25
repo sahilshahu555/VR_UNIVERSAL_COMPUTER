@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className='text-center font-serif'>
+    <div className='text-center font-serif  '>
        <Navbar/>
 
        <AllRoutes/>
