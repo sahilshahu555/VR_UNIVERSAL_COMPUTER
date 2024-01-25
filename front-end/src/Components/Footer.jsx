@@ -9,7 +9,7 @@ const Footer = () => {
                 className="absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 group-hover:opacity-70 transition duration-1000 group-hover:duration-200">
             </div>
 
-            <div className="relative  py-3 bg-black ring-1 ring-gray-100   rounded-lg leading-none  ">
+            <div className="relative  py-3 bg-black ring-0 ring-gray-100   rounded-lg leading-none  ">
 
                     <h5 className="text-white text-xs lg:font-semibold leading-normal 
                     tracking-wider
