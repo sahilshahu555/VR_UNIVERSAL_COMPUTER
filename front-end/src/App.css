@@ -2,3 +2,8 @@
 
 
 
+.link{
+    @apply duration-300 hover:bg-gradient-to-r from-pink-500 via-red-500
+     to-yellow-500  lg:hover:font-semibold
+    hover:font-medium p-2 lg:py-1 lg:px-3 rounded hover:text-slate-600
+  }
