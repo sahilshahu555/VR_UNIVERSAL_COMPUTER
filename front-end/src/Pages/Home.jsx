@@ -1,44 +1,48 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import Card from "../Components/Card"
+import Main from "../Components/Home-Page-Components/main"
+import FeaturesProducts from "../Components/Home-Page-Components/FeaturesProducts"
+import WhyChoose from "../Components/Home-Page-Components/WhyChoose"
+import Mission from "../Components/Home-Page-Components/Mission"
 
 
 const Home = () => {
 
-  const [data,setData]=useState([])
-
-  const getData=()=>{
-    axios.get("https://fakestoreapi.com/products")
-    .then((res)=>setData(res.data)).catch((err)=>console.log(err))
-  }
-
- useEffect(()=>{
-  getData()
- },[])
- console.log(data)
+ 
 
 
   return (
-    <div className=" font-bold text-center bg-black p-2 ">
+    <div className="    ">
+      
         
-        <div className=" mt-12 mb-5 mx-6 lg:mx-96 lg:my-4 bg-black relative group cursor-pointer">
+        {/* <div className=" mt-24 mb-5 mx-6 lg:mx-96   rounded-lg lg:my-4 bg-black relative  cursor-pointer">
             <div
-                className="animate-pulse  absolute -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 group-hover:opacity-70 transition duration-1000 group-hover:duration-200">
+                className="animate-pulse  absolute  -inset-1 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg blur opacity-100 group-hover:opacity-70 transition duration-1000 group-hover:duration-200">
             </div>
 
-            <div className="relative  py-3 bg-black ring-1 ring-gray-100   rounded-lg leading-none  ">
+            <div className="relative  py-3 bg-black   rounded-lg   ">
 
-                    <h1 className="text-white text-sm lg:text-md lg:font-semibold leading-normal 
+                    <h1 className="text-white text-sm  lg:text-md lg:font-semibold leading-normal 
                     tracking-wider
                     ">Welcome To VR Universal Computer</h1>
            </div>
     
-         </div>
-       
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-1 lg:gap-2 lg:m-5 ">
-      {data?.map((elm)=><Card key={elm.id} elm={elm}/>)}
-     </div>
-        
+         </div> */}
+       {/* <div>
+         <h1 className="text-white text-center bg-black  text-sm  lg:text-md lg:font-semibold leading-normal  tracking-wider w-96 p-2 m-auto rounded-2xl
+         ">Welcome To VR Universal Computer</h1>
+        </div> */}
+
+        <Main/>
+        <FeaturesProducts/>
+        <WhyChoose/>
+        <Mission/>
+
+
+        <div className="Our-Mission"></div>
+
+        <div className="Advices"></div>
     </div>
   )
 }
