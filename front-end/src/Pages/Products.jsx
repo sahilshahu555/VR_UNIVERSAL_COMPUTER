@@ -18,7 +18,7 @@ const Products = () => {
  console.log(data)
 
   return (
-    <div className="  font-bold text-center bg-black p-2 
+    <div className="  font-bold text-center bg-black p-2 mb-20
   
     ">
     <h1 className="text-2xl mt-10 text-orange-500  lg:tracking-wider"> Products Page</h1>
