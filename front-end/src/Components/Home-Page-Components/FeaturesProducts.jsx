@@ -32,7 +32,7 @@ const FeaturesProducts = () => {
 
 ]
   return (
-    <div className="Featured-Products p-10 md:p-0 -mt-10 md:mt-0 bg-black text-white flex flex-col   items-center lg:h-screen 
+    <div className="Featured-Products p-10 md:p-0 -mt-10 md:mt-0 bg-black text-white flex flex-col   items-center 
     text-center   px-5 md:px-10 md:gap-5
     ">
               <h1 className="text-3xl font-semibold m-5">Featured <span className="text-orange-500">Products</span></h1>

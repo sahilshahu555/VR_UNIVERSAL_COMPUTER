@@ -1,6 +1,6 @@
 const Mission = () => {
   return (
-    <div className="h-screen p-10">
+    <div className="px-10 mb-24">
       <div>
         <h1 className="text-white text-bold text-3xl md:text-3xl mb-10">
           Our <span className="text-orange-500">Mission</span>

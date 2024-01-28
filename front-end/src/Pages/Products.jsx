@@ -21,7 +21,7 @@ const Products = () => {
     <div className="  font-bold text-center bg-black p-2 mb-20
   
     ">
-    <h1 className="text-2xl mt-10 text-orange-500  lg:tracking-wider"> Products Page</h1>
+    <h1 className="text-2xl mt-12 text-orange-500  lg:rackitng-wider"> Products Page</h1>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-1 lg:gap-2 lg:m-5 ">
       {data?.map((elm)=><Card key={elm.id} elm={elm}/>)}
      </div>

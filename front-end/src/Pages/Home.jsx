@@ -40,7 +40,7 @@ const Home = () => {
         <Mission/>
 
 
-        <div className="Our-Mission"></div>
+        
 
         <div className="Advices"></div>
     </div>

@@ -22,7 +22,7 @@ const WhyChoose = () => {
     }, 
   ]
   return (
-    <div className="Featured-Products  md:p-0  bg-black text-white flex flex-col   items-center lg:h-screen justify-around
+    <div className="Featured-Products  md:p-0  bg-black text-white flex flex-col   items-center justify-around
     text-center   px-10 md:px-10 md:gap-4 mb-10 lg:mb-5
     ">
               <h1 className="text-2xl font-semibold">Why Choose <span className="text-orange-500">VR Universal Computers</span> ?</h1>
