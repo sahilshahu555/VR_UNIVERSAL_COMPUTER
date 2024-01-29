@@ -7,6 +7,11 @@ const Products = () => {
 
   const [data,setData]=useState([])
 
+    const scrollToTop = () => {
+    window.scrollTo({ top: 0,  });
+  }
+ 
+
   const getData=()=>{
     axios.get("https://fakestoreapi.com/products")
     .then((res)=>setData(res.data)).catch((err)=>console.log(err))
@@ -14,11 +19,12 @@ const Products = () => {
 
  useEffect(()=>{
   getData()
+  scrollToTop()
  },[])
  console.log(data)
 
   return (
-    <div className="  font-bold text-center bg-black p-2 mb-20
+    <div className="product  font-bold text-center bg-black p-2 mb-20
   
     ">
     <h1 className="text-2xl mt-12 text-orange-500  lg:rackitng-wider"> Products Page</h1>

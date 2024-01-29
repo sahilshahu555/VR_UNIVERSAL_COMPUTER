@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 
 
 const Services = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0,  });
+  }
+  useEffect(()=>{scrollToTop()},[])
+  
   return (
     <div className=" font-bold text-center bg-black p-2 
     h-96 lg:h-72

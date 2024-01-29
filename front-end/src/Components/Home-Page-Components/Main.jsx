@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Main = () => {
@@ -10,9 +11,12 @@ const Main = () => {
      <h5 className="text-md  my-3 md:my-2">Provides Best Quality of products and services</h5>
      <p className="text-xs font-thin tracking-wider">We specialize in delivering reliable and efficient computer repair services. With a team of skilled technicians, we are committed to diagnosing and resolving a wide range of computer issues promptly. </p>
      <div className="flex gap-16 justify-center md:justify-start md:gap-10 items-center mt-5">
-        <button className="bg-orange-500 link p-2 rounded">Explore More</button>
+       <Link to="/services"> 
+       <button className="bg-orange-500 link p-2 rounded">Explore More</button>
+       </Link>
+       <Link to="/products">
         <button className="ring-1 ring-orange-500  link p-2 rounded" >See Products</button>
-
+        </Link>
      </div>
       </div>
       <div className="lg:p-10 ">

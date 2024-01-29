@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Mission = () => {
   return (
     <div className="px-10 mb-24">
@@ -32,8 +34,9 @@ const Mission = () => {
           0ur mission is to deliver unparalleled excellence in computer repair services through innovative virtual reality solutions.
           </p>
           <div className="flex gap-16 justify-center md:justify-start md:gap-10 items-center mt-5">
+           <Link to="/about">
             <button className="bg-orange-500 p-2 rounded link">Explore More</button>
-            
+           </Link>
           </div>
         </div>
       </div>

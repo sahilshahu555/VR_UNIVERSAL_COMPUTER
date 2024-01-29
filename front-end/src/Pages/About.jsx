@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 
 
 const About = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0,  });
+  }
+  useEffect(()=>{scrollToTop()},[])
   return (
     <div className=" font-bold text-center text-white bg-black p-10 mb-20">
 
@@ -16,17 +21,15 @@ const About = () => {
           />
         </div>
 
-        <div className="  lg:mt-0 w-full">
+        <div className="  lg:mt-0 w-full ">
           <h1 className="  text-xl md:text-2xl text-center font-bold md:text-bold  mb-4"
           >
            Our <span className="text-orange-500 ">Vison</span>
           </h1>
-          <h5 className="text-md  my-3 md:my-2 ">
-          We are dedicated to providing swift, reliable, and cost-effective repairs, 
+          <h5 className="text-thin font-medium my-3 md:my-2 tracking-wider leading-normal">Ultimately,
+          <span className="text-orange-500 ">  VR Universal Computer's  </span> vision is to be a beacon of trust and reliability in the realm of computer repair, embracing technological advancements to provide unparalleled service and leaving a positive impact on our customers, employees, and the environment.
           </h5>
-          <p className="text-xs font-thin tracking-wider">
-          0ur mission is to deliver unparalleled excellence in computer repair services through innovative virtual reality solutions.
-          </p>
+          
          
         </div>
       </div>
@@ -35,27 +38,27 @@ const About = () => {
 
 
 
-<div className="  lg:mt-0 w-full lg:px-10">
-  <h1 className="  text-xl md:text-2xl text-center font-bold md:text-bold  mb-4"
-  >
-   Our <span className="text-orange-500 ">Approch</span>
-  </h1>
-  <h5 className="text-md  my-3 md:my-2 ">
-  We are dedicated to providing swift, reliable, and cost-effective repairs, 
-  </h5>
-  <p className="text-xs font-thin tracking-wider">
-  0ur mission is to deliver unparalleled excellence in computer repair services through innovative virtual reality solutions.
-  </p>
- 
-</div>
+      <div className="  lg:mt-0 w-full lg:px-10">
+        <h1 className="  text-xl md:text-2xl text-center font-bold md:text-bold  mb-4"
+        >
+        Our <span className="text-orange-500 ">Approch</span>
+        </h1>
+        <h5 className="text-md text-medium my-3 md:my-2 ">
+        We are dedicated to providing swift, reliable, and cost-effective repairs, 
+        </h5>
+        <p className="text-thin leading-normal font-medium tracking-wider">
+        <span className="text-orange-500 "> VR Universal Computer </span> adopts a customer-centric approach, combining advanced virtual reality technology with a skilled workforce to deliver efficient, innovative, and sustainable computer repair solutions. Our focus is on continuous learning, environmental responsibility, and exceeding customer expectations in the rapidly evolving tech landscape.
+        </p>
+      
+      </div>
 
-<div className=" rounded-3xl md:p-10 w-full  ">
-  <img
-    className="rounded-3xl  w-full "
-    src="https://png.pngtree.com/background/20231017/original/pngtree-cybernetic-futuristic-art-abstract-technology-background-in-3d-picture-image_5590850.jpg"
-    alt="photo"
-  />
-</div>
+      <div className=" rounded-3xl md:p-10 w-full  ">
+        <img
+          className="rounded-3xl  w-full "
+          src="https://png.pngtree.com/background/20231017/original/pngtree-cybernetic-futuristic-art-abstract-technology-background-in-3d-picture-image_5590850.jpg"
+          alt="photo"
+        />
+      </div>
       </div>
 
     </div>

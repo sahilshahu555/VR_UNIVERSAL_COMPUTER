@@ -33,10 +33,10 @@ const Navbar = () => {
       <div className="md:hidden flex justify-end items-center ">
        
        {!flage?(
-       <button className=" link w-10 bg-orange-500 text-white rounded  rotate-180 font-medium" onClick={()=>setFlage(!flage)} >︽</button>
+       <button className=" link w-16 bg-orange-500 text-white rounded  font-medium" onClick={()=>setFlage(!flage)} > Menu </button>
        ):
        (<div  onClick={()=>{setFlage(!flage)}}>
-            <button className="w-10 bg-orange-500 text-white rounded  p-2" > ︽ </button>
+            <button className="w-16 bg-orange-500 text-white rounded  p-2" > ︽ </button>
              <div className="flex flex-row absolute mt-6  right-0 p-1   rounded-xl   bg-orange-500 text-white w-full justify-around items-center  ">
                  <Link className="link" to={"/"}>Home</Link>
                  <Link className="link" to={"/products"}>Product</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
       </div>
 
 
-      <div > 
+      <div className="hidden md:flex"> 
            <Link className="link bg-orange-500 rounded p-2 lg:px-3" to={"/login"}>Login</Link> 
       </div>
 

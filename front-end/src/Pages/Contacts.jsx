@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 
 
 const Contacts = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0,   });
+  }
+  useEffect(()=>{scrollToTop()},[])
   return (
     <div className=" font-bold text-center bg-black p-10 mb-20
     
