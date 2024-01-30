@@ -19,8 +19,10 @@ const Main = () => {
         </Link>
      </div>
       </div>
-      <div className="lg:p-10 ">
-        <img className="rounded-3xl" src="https://png.pngtree.com/thumb_back/fw800/background/20230716/pngtree-dark-wallpaper-3d-rendering-featuring-high-tech-sensor-circuit-board-panel-image_3882235.jpg" alt="" />
+      <div className="lg:p-2  ">
+        {/* <div className="hidden md:flex w-full  rounded-3xl h-56  animate-pulse  absolute text-black shadow-lg shadow-orange-500 "></div> */}
+       
+        <img className="rounded-3xl  " src="https://png.pngtree.com/thumb_back/fw800/background/20230716/pngtree-dark-wallpaper-3d-rendering-featuring-high-tech-sensor-circuit-board-panel-image_3882235.jpg" alt="" />
       </div>
     </div>
   )

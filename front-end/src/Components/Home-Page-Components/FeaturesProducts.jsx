@@ -37,10 +37,10 @@ const FeaturesProducts = () => {
     ">
               <h1 className="text-3xl font-semibold m-5">Featured <span className="text-orange-500">Products</span></h1>
 
-              <p className="">We are providing best-selling items for your product, product range, or company. </p>
+              <p className="ring-1 ring-orange-500 p-2 rounded-xl tracking-wide">We are providing best-selling items for your product, product range, or company </p>
 
-                <div className="flex flex-wrap justify-around items-center  gap-4 lg:m-10 lg:gap-12 mt-10 lg:mt-0">
-                 {data?.map((elm)=>(<Card elm={elm} key={elm.id}/>))}
+                <div className="flex flex-wrap justify-around items-center  gap-4 lg:m-10 lg:gap-12 mt-10 lg:mt-0 ">
+                 {data?.map((elm)=>(<Card elm={elm} key={elm.id} />))}
                 </div>
         </div>
   )

@@ -28,6 +28,7 @@ const Products = () => {
   
     ">
     <h1 className="text-2xl mt-12 text-orange-500  lg:rackitng-wider"> Products Page</h1>
+    <h3 className="text-white m-5 font-medium tracking-wider ">To Buy Any following Product at <span className="text-orange-500">Best Price</span>, Please Call on the Mobile Number  <span className="text-white font-bold bg-orange-500 rounded-xl p-2 mx-2  leading-10"> 7776093738</span> </h3>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-1 lg:gap-2 lg:m-5 ">
       {data?.map((elm)=><Card key={elm.id} elm={elm}/>)}
      </div>

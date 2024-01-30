@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import VrImage from "../Images/vr.png"
+
 
 const Navbar = () => {
   const [flage,setFlage]=useState(false)
@@ -20,8 +20,8 @@ const Navbar = () => {
 
       <div className=" hidden md:flex flex-wrap  items-center  m-3 lg:m-0 gap-3 lg:gap-20  font-medium text-white lg:text-md justify-around text-center">
         <Link to={"/"} className="link" >Home</Link>
-        <Link to={"/products"} className="link" >Products</Link>
         <Link to={"/services"} className="link" >Services</Link>
+        <Link to={"/products"} className="link" >Products</Link>
         <Link to={"/about"}className="link" >About</Link>
         <Link to={"/contacts"}className="link" >Contacts</Link>
        
@@ -39,8 +39,8 @@ const Navbar = () => {
             <button className="w-16 bg-orange-500 text-white rounded  p-2" > ︽ </button>
              <div className="flex flex-row absolute mt-6  right-0 p-1   rounded-xl   bg-orange-500 text-white w-full justify-around items-center  ">
                  <Link className="link" to={"/"}>Home</Link>
-                 <Link className="link" to={"/products"}>Product</Link>
                  <Link className="link" to={"/services"}>Services</Link>
+                 <Link className="link" to={"/products"}>Product</Link>
                  <Link className="link" to={"/about"} >About</Link>
                  <Link className="link" to={"/contacts"}>Contacts</Link>
                  
@@ -52,7 +52,7 @@ const Navbar = () => {
 
 
       <div className="hidden md:flex"> 
-           <Link className="link bg-orange-500 rounded p-2 lg:px-3" to={"/login"}>Login</Link> 
+           <Link className="link bg-orange-500 rounded p-2 lg:px-3" to={"/"}>Login</Link> 
       </div>
 
     </div>

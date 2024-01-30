@@ -1,10 +1,11 @@
-import axios from "axios"
-import { useEffect, useState } from "react"
-import Card from "../Components/Card"
+
+
 import Main from "../Components/Home-Page-Components/main"
 import FeaturesProducts from "../Components/Home-Page-Components/FeaturesProducts"
 import WhyChoose from "../Components/Home-Page-Components/WhyChoose"
 import Mission from "../Components/Home-Page-Components/Mission"
+
+import ServicesHome from "../Components/Home-Page-Components/ServicesHome"
 
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
 
         <Main/>
         <FeaturesProducts/>
+        <ServicesHome/>
         <WhyChoose/>
         <Mission/>
 
