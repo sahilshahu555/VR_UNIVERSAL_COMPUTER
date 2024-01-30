@@ -7,10 +7,10 @@ const Contacts = () => {
   }
   useEffect(()=>{scrollToTop()},[])
   return (
-    <div className=" font-bold text-center bg-black p-7 mb-20
+    <div className=" font-bold text-center bg-black p-2 mb-20
     
     ">
-    <h1 className="text-2xl m-6 text-orange-500  lg:tracking-wider"> Contacts Page</h1>
+    <h1 className="text-3xl text-white mt-12 font-semibold m-5">Our <span className="text-orange-500">Contacts</span></h1>
 
     <div className="About-1  bg-black text-white flex flex-col   md:flex-row items-center gap-10 md:gap:2 text-start  md:justify-around  ">
 
@@ -22,7 +22,7 @@ const Contacts = () => {
   />
 </div>
 
-<div className="  lg:mt-0 w-full flex flex-col justify-between">
+<div className="  lg:mt-0 w-full p-5 flex flex-col justify-between">
   <h1 className="  text-xl md:text-2xl text-center font-bold md:text-bold  mb-4"
   >
    Our <span className="text-orange-500 ">Contacts</span>

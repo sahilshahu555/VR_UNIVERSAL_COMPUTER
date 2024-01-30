@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className=" font-bold text-center text-white bg-black p-10 mb-20">
 
-        <h1 className="text-2xl m-5 text-orange-500  lg:tracking-wider"> About Page</h1>
+<h1 className="text-3xl font-semibold m-5">About <span className="text-orange-500">US</span></h1>
 
         <div className="About-1  bg-black text-white flex flex-col   md:flex-row items-center gap-10 md:gap:2 text-start  md:justify-around  ">
 

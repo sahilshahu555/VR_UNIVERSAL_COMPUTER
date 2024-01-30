@@ -9,12 +9,12 @@ const Mission = () => {
         </h1>
       </div>
       <div
-        className="Main-Content   bg-black text-white flex flex-col   md:flex-row items-center gap-10 md:gap:2
+        className="Main-Content   bg-black text-white flex flex-col   lg:flex-row items-center gap-10 md:gap:2
          text-start  md:justify-around  "
       >
-        <div className=" rounded-3xl md:p-10 w-full  ">
+        <div className=" rounded-3xl lg:p-10 w-full  ">
           <img
-            className="rounded-3xl  w-full "
+            className="rounded-3xl  w-full md:w-1/2 md:m-auto lg:w-full"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQV-BZ4eYgNik92H0g91RrFjmzqISxPak-SQ&usqp=CAU"
             alt="photo"
           />

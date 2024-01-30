@@ -6,11 +6,15 @@ import WhyChoose from "../Components/Home-Page-Components/WhyChoose"
 import Mission from "../Components/Home-Page-Components/Mission"
 
 import ServicesHome from "../Components/Home-Page-Components/ServicesHome"
+import { useEffect } from "react"
 
 
 const Home = () => {
 
- 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0,  });
+  }
+  useEffect(()=>{scrollToTop()},[])
 
 
   return (

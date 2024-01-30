@@ -1,4 +1,5 @@
-import Card from "../Card"
+import { Link } from "react-router-dom";
+
 
 
 const ServicesHome = () => {
@@ -90,13 +91,19 @@ const ServicesHome = () => {
 
                 <div className="flex flex-wrap justify-around items-center  gap-7 lg:my-14 lg:gap-12 my-10 lg:mt-0">
                  {data?.map((elm)=>(
+                 
+                 
+                 
                  <div key={elm.id} className="w-40  md:w-56 my-2 shadow-md shadow-orange-500 rounded-xl 
-                 flex flex-col justify-between items-center hover:bg-orange-400 
+                 flex flex-col justify-between items-center hover:text-orange-400 
             
-                 ">
-                    <img src={elm.image} className="rounded-t-xl w-full h-28 md:h-36 " alt="" />
-                    <h1 className="text-white my-2 ">{elm.title}</h1>
-                 </div>))}
+                 "> <Link to="/services">
+                    <img src={elm.image} className="rounded-t-xl w-full   h-28 md:h-36 " alt="" />
+                    <h1 className=" my-2 ">{elm.title}</h1>
+                    </Link>
+                 </div>
+                 
+                 ))}
                 </div>
         </div>
   )

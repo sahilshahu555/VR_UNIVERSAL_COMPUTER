@@ -6,5 +6,5 @@
 
 .link{
     @apply duration-300 hover:bg-orange-500  
-    hover:font-medium p-2 lg:py-2 lg:px-3 rounded hover:text-slate-600
+    hover:font-medium p-2 lg:py-2 lg:px-3 rounded hover:text-black
   }
