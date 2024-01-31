@@ -31,24 +31,18 @@ const Contacts = () => {
   We are Dedicated to Providing <span className="text-orange-500 "> Cost-effective </span> repairs 
   </h5>
  
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  Mobile Number : 7776093738
+  <p className="text-xs font-thin tracking-wider mt-1">
+  * Mobile Number :- 7776093738 / 7248903512
   </p>
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  Email Id : 
+  
+  <p className="text-xs font-thin tracking-wider mt-1">
+  * WhatsApp :- 7776093738 / 7248903512
   </p>
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  Instagram : 
+  
+  <p className="text-xs font-thin tracking-wider mt-1">
+  * Email Id :- vruniversalcomputer@gmail.com
   </p>
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  FaceBook : 
-  </p>
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  WhatsApp : 
-  </p>
-  <p className="text-xs font-thin tracking-wider mt-0.5">
-  Adreess : 
-  </p>
+  
 </div>
 </div>
 

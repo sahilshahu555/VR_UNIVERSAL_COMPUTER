@@ -40,8 +40,8 @@ const Home = () => {
         </div> */}
 
         <Main/>
-        <FeaturesProducts/>
         <ServicesHome/>
+        <FeaturesProducts/>
         <WhyChoose/>
         <Mission/>
 

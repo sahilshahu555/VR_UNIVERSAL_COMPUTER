@@ -52,7 +52,7 @@ const ServicesHome = () => {
     id:8,
     title:"Fridge Repair",
     price:"$ 5000",
-    image:"https://cdn-shared.altium.com/production/wds/images/wds-sticky-v2/tmp-img/AD24_Fullsize_Final_4K-2-2x-min.jpg"
+    image:"https://previews.123rf.com/images/disfera/disfera1201/disfera120100040/11879035-refrigerator-in-kitchen-3d-model-of-fridge.jpg"
   },
  
   {
